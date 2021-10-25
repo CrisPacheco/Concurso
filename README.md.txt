@@ -9,7 +9,7 @@ medida que el jugador gana premios.
 ## Instalacion
 
 El proyecto fue desarrollado en lenguaje java en el entorno de desarrollo de NetBeans
-se diseño una base de datos en el sistema de gestión de XAMPP y se accedio a ella por medio de phpMyAdmin.
+se diseño una base de datos para llevar a cabo la persistencia de datos, en el sistema de gestión de XAMPP y se accedio a ella por medio de phpMyAdmin.
 
 -Para ejecutar el proyecto de forma adecuada se debe clonar el repositorio alojado en github https://github.com/CrisPacheco/Concurso.git 
 
