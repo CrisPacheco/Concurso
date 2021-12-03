@@ -6,7 +6,7 @@ import java.util.List;
 public class Categoria {
 
     private final List<Pregunta> preguntas;
-    int puntosTotales;
+    public int puntosTotales;
     private int aciertos;
 
     public Categoria() {
@@ -23,11 +23,11 @@ public class Categoria {
     }
 
     public int mostrarPregunta() {
-       
+
         int numero = 1;
-        int a = (int) (Math.random() * 5) + 1;
+        int aleatorio = (int) (Math.random() * 5) + 1;
         for (Pregunta p : preguntas) {
-            boolean correcta = p.mostrar(numero, a);
+            boolean correcta = p.mostrar(numero, aleatorio);
             numero++;
             if (correcta) {
                 System.out.println("\t RESPUESTA CORRECTA");

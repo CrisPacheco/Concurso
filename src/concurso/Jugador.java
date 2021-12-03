@@ -4,15 +4,14 @@ import java.util.Scanner;
 
 public class Jugador {
 
-    String nombre;
-    int puntaje;
-        
-    public String agregarJugador(){
-        
+    public String nombre;
+
+    public String agregarJugador() {
+
         System.out.println("POR FAVOR INGRESE SU NOMBRE:");
         Scanner sc = new Scanner(System.in);
-        String jugador = sc.nextLine();
+        nombre = sc.nextLine();
         System.out.println("");
-        return jugador;
+        return nombre;
     }
 }
